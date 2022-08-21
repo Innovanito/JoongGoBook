@@ -8,6 +8,11 @@ import pin from './pin'
 import comment from './comment'
 import postedBy from './postedBy'
 import save from './save'
+import accountInfo from './accountInfo'
+import defaultImage from './defaultImage'
+import directMeesage from './directMeesage'
+import dm from './dm'
+import chat from './chat'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -17,9 +22,14 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     user,
+    accountInfo,
     pin,
     comment,
     postedBy,
-    save
-  ]),
+    save,
+    defaultImage,
+    directMeesage,
+    dm,
+    chat
+  ])
 })

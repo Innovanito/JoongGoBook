@@ -42,6 +42,11 @@ export default {
       type: 'postedBy'
     },
     {
+      name: 'price',
+      title: 'Price',
+      type: 'number'
+    },
+    {
       name: 'save',
       title: 'Save',
       type: 'array',
@@ -53,5 +58,11 @@ export default {
       type: 'array',
       of: [{ type: 'comment'}]
     },
+    {
+      name: 'isSold',
+      title: 'IsSold',
+      type: 'boolean',
+      description: 'True when the book is sold'
+    }
   ]
 }
