@@ -4,8 +4,18 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'sender',
-      title: 'Sender',
+      name: 'dmTitle',
+      title: 'DmTitle',
+      type: 'string'
+    },
+    {
+      name: 'buyer',
+      title: 'Buyer',
+      type: 'string'
+    },
+    {
+      name: 'seller',
+      title: 'Seller',
       type: 'string'
     },
     {
